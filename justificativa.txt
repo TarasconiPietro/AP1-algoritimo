@@ -1,0 +1,27 @@
+Respostas
+
+1. Quais dois algoritmos vocês escolheram?
+
+   Merge Sort e Quick Sort.
+
+2. Qual deles utiliza a estratégia de Divisão e Conquista?
+
+   Os dois utilizam. O Merge Sort divide o vetor ao meio,
+   ordena as metades e depois as mescla. O Quick Sort escolhe um pivô,
+   particiona os elementos em menores e maiores que o pivô e ordena
+   recursivamente as duas partes.
+
+3. Por que escolheram esses dois algoritmos para comparar?
+
+   Ambos já estavam na classe Ordenacao e atendem à regra de usar Merge Sort
+   ou Quick Sort. São dois algoritmos de Divisão e Conquista com a mesma
+   complexidade média O(n log n), mas estratégias diferentes: o Merge Sort
+   é estável e tem pior caso previsível; o Quick Sort costuma ser mais
+   rápido na prática.
+
+4. Qual dos dois vocês escolheriam caso a competição tivesse milhares de
+   jogadores? Por quê?
+
+   O Merge Sort. Com milhares de jogadores, o pior caso do Quick Sort (O(n²))
+   pode tornar o ranking lento, dependendo da escolha do pivô. O Merge Sort
+   garante O(n log n) sempre, o que é mais seguro para um volume grande de dados.
